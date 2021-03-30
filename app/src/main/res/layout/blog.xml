@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:orientation="vertical"
+    android:padding="25dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingHorizontal="10dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/alegreya_sc_bold"
+            android:gravity="center_horizontal"
+            android:text=" KIM SEJEONG "
+            android:textSize="20dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="253dp"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/bg"
+            android:padding="5dp">
+
+            <ImageView
+
+                android:layout_width="170dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="25dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/kimsejeong"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/textbali"
+                android:layout_width="146dp"
+                android:layout_height="22dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/acme"
+                android:text="Mini Album (IM) "
+                android:textColor="#fff" />
+
+            <TextView
+
+                android:layout_width="139dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textbali"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="1dp"
+                android:fontFamily="@font/acme"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="10dp"
+                android:text="Pada pukul 00.00 pada tanggal 25, Kim Se-jeong merilis video pratinjau dari mini album kedua 'I'm' melalui saluran SNS resmi, mengatur suasana hati untuk comeback. Dari lagu utama 'Peringatan (Feat. LIlBOI)' hingga lagu yang disertakan, total 5 lagu dari sumber suara utama dan gambar yang belum dirilis menarik perhatian dan telinga pemirsa."
+                android:textColor="#fff"
+                android:textSize="11dp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/bg"
+            android:padding="10dp">
+
+
+            <TextView
+                android:id="@+id/textjogja"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/acme"
+                android:text=" Favorit Track List"
+                android:textColor="#fff" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textjogja"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="5dp"
+                android:text="1. Teddy Bear"
+                android:textColor="#fff"
+                android:textSize="11dp" />
+
+            <ImageView
+                android:layout_width="59dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="50dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/teddybear" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="40dp"
+                android:layout_toRightOf="@id/bali"
+                android:fontFamily="@font/acme"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="10dp"
+                android:text="살짝 벌어진 네 입술이
+얄밉게 떨려 like a kiss my baby
+내 팔은 네 pillow
+내 말은 tequila
+편하게 취해 꿈을 더 꾸게"
+                android:textColor="#fff"
+                android:textSize="11dp" />
+
+            <TextView
+                android:id="@+id/textjogja2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textjogja"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="90dp"
+                android:text="2. Warning"
+                android:textColor="#fff"
+                android:textSize="11dp" />
+
+            <ImageView
+                android:id="@+id/bali"
+                android:layout_width="59dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="130dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/warning_" />
+
+            <TextView
+                android:id="@+id/textbalii"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="130dp"
+                android:layout_toRightOf="@id/bali"
+                android:fontFamily="@font/acme"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="10dp"
+                android:text="중요한 걸 잊은 느낌
+다가오는 불안함에
+더 이상은 걷지 못해
+왜 이러지 나 모르겠어 Warning! 가보자
+모든 건 너도 나도 처음일 테니까
+Warning! 해보자
+아니면 다시 돌아오지 까짓 거 뭐"
+                android:textColor="#fff"
+                android:textSize="11dp" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
